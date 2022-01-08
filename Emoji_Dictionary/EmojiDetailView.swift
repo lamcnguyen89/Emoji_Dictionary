@@ -13,12 +13,15 @@ struct EmojiDetailView: View {
     
     var body: some View {
         VStack {
-            Text("This is the detail view")
+            Text(Emoji.definition)
                 .padding()
+                .font(.system(size: 30))
             
             Text(Emoji.symbol)
                 .font(.system(size: 300
                 ))
+            Text(" \(String(repeating: "⭐️", count: Emoji.rating))")
+                .font(.system(size: 50))
         }
         
     }
@@ -26,6 +29,6 @@ struct EmojiDetailView: View {
 
 struct EmojiDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        EmojiDetailView(Emoji: Emoji(id: UUID(), symbol: "💒"))
+        EmojiDetailView(Emoji: Emoji(id: UUID(), symbol: "💒", definition: "The Church of Darkness", rating: 5))
     }
 }
