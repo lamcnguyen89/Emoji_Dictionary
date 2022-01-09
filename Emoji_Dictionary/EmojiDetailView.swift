@@ -14,14 +14,14 @@ struct EmojiDetailView: View {
     var body: some View {
         VStack {
             Text(Emoji.definition)
-                .padding()
                 .font(.system(size: 30))
             
             Text(Emoji.symbol)
-                .font(.system(size: 300
+                .font(.system(size: 200
                 ))
+                .padding()
             Text(" \(String(repeating: "⭐️", count: Emoji.rating))")
-                .font(.system(size: 50))
+                .font(.system(size: 30))
         }
         
     }

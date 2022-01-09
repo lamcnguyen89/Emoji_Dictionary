@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE69471F278AB794002FCFA8 /* EmojiGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69471E278AB794002FCFA8 /* EmojiGridView.swift */; };
+		DE694721278ABBC3002FCFA8 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE694720278ABBC3002FCFA8 /* Emoji.swift */; };
 		DEE33D6D2788F5B2000BA3E2 /* Emoji_DictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE33D6C2788F5B2000BA3E2 /* Emoji_DictionaryApp.swift */; };
-		DEE33D6F2788F5B2000BA3E2 /* Emoji_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE33D6E2788F5B2000BA3E2 /* Emoji_List.swift */; };
+		DEE33D6F2788F5B2000BA3E2 /* EmojiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE33D6E2788F5B2000BA3E2 /* EmojiListView.swift */; };
 		DEE33D712788F5B4000BA3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE33D702788F5B4000BA3E2 /* Assets.xcassets */; };
 		DEE33D742788F5B4000BA3E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE33D732788F5B4000BA3E2 /* Preview Assets.xcassets */; };
 		DEE33D7E2789DE77000BA3E2 /* EmojiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE33D7D2789DE77000BA3E2 /* EmojiDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE69471E278AB794002FCFA8 /* EmojiGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiGridView.swift; sourceTree = "<group>"; };
+		DE694720278ABBC3002FCFA8 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		DEE33D692788F5B2000BA3E2 /* Emoji_Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoji_Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE33D6C2788F5B2000BA3E2 /* Emoji_DictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_DictionaryApp.swift; sourceTree = "<group>"; };
-		DEE33D6E2788F5B2000BA3E2 /* Emoji_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_List.swift; sourceTree = "<group>"; };
+		DEE33D6E2788F5B2000BA3E2 /* EmojiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiListView.swift; sourceTree = "<group>"; };
 		DEE33D702788F5B4000BA3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEE33D732788F5B4000BA3E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEE33D752788F5B4000BA3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				DEE33D6C2788F5B2000BA3E2 /* Emoji_DictionaryApp.swift */,
-				DEE33D6E2788F5B2000BA3E2 /* Emoji_List.swift */,
+				DEE33D6E2788F5B2000BA3E2 /* EmojiListView.swift */,
+				DE69471E278AB794002FCFA8 /* EmojiGridView.swift */,
+				DEE33D7D2789DE77000BA3E2 /* EmojiDetailView.swift */,
+				DE694720278ABBC3002FCFA8 /* Emoji.swift */,
 				DEE33D702788F5B4000BA3E2 /* Assets.xcassets */,
 				DEE33D752788F5B4000BA3E2 /* Info.plist */,
 				DEE33D722788F5B4000BA3E2 /* Preview Content */,
-				DEE33D7D2789DE77000BA3E2 /* EmojiDetailView.swift */,
 			);
 			path = Emoji_Dictionary;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE33D6F2788F5B2000BA3E2 /* Emoji_List.swift in Sources */,
+				DE694721278ABBC3002FCFA8 /* Emoji.swift in Sources */,
+				DE69471F278AB794002FCFA8 /* EmojiGridView.swift in Sources */,
+				DEE33D6F2788F5B2000BA3E2 /* EmojiListView.swift in Sources */,
 				DEE33D7E2789DE77000BA3E2 /* EmojiDetailView.swift in Sources */,
 				DEE33D6D2788F5B2000BA3E2 /* Emoji_DictionaryApp.swift in Sources */,
 			);
